@@ -74,3 +74,7 @@ The overall Forward differential kinematics is obtained by combining Equations (
   <img src="https://github.com/user-attachments/assets/a652ee2c-21da-463c-89f4-431d7e1144c9" alt="equation9" />
 </p>
 The matrix which defines the relationship between the robot's velocity in the world frame and its local frame is the Jacobian matrix.
+
+
+Fix typo in README
+
