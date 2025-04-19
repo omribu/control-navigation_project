@@ -93,10 +93,8 @@ which yields:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/78500c53-8005-466b-96ae-c1ecffdcb084" width="300" />
 </p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cc6fddda-4d92-42c6-9e63-672fadeccaaf" width="150"/>
-</p>
 
+From
 
 
 
