@@ -85,5 +85,9 @@ Applying Newton's second law for linear motion:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/79732bfd-6ae9-48c0-8c32-64ffe0f88551" alt="equation12" />
 </p>
+Applying Euler’s rotational dynamics for torque around the center of mass:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6e8be10a-0151-466c-b356-e14667dd5007" alt="equation13" />
+</p>
 
 
