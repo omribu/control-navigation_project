@@ -93,4 +93,10 @@ which yields:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/61427ed3-fda9-4007-8a3a-75d95db827dd" alt="equation14" />
 </p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cc6fddda-4d92-42c6-9e63-672fadeccaaf" alt="equation14" />
+</p>
+
+
+
 
