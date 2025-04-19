@@ -89,5 +89,8 @@ Applying Euler’s rotational dynamics for torque around the center of mass:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6e8be10a-0151-466c-b356-e14667dd5007" alt="equation13" />
 </p>
-
+which yields:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/61427ed3-fda9-4007-8a3a-75d95db827dd" alt="equation14" />
+</p>
 
