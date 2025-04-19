@@ -95,10 +95,12 @@ which yields:
 </p>
 
 From deriviation of eqation 4:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9d870b31-c423-4ff9-80a6-5e3423d1320d" width="300" />
+</p>
 
 
-
-![image](https://github.com/user-attachments/assets/a36d5302-9c41-4c22-9b8a-117dab971876)
+![image](https://github.com/user-attachments/assets/9d870b31-c423-4ff9-80a6-5e3423d1320d)
 
 
 
