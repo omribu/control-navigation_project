@@ -76,7 +76,7 @@ The overall Forward differential kinematics is obtained by combining Equations (
 The matrix which defines the relationship between the robot's velocity in the world frame and its local frame is the Jacobian matrix.
 
 ## Dynamics
-Applying Newton's second law for linear motion:
+From Newton’s second law, the linear acceleration in the robot's frame is:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d6665c8c-471f-444e-a067-0f23852ac6d3" width="300" />
 </p>
