@@ -80,5 +80,10 @@ Applying Newton's second law for linear motion:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d6665c8c-471f-444e-a067-0f23852ac6d3" alt="equation10" />
 </p>
-<img src="https://github.com/user-attachments/assets/31f23641-6e1f-4317-a72d-2d4f72c9d979" alt="equation11" width="140"/> as used in the derivation.
+<img src="https://github.com/user-attachments/assets/31f23641-6e1f-4317-a72d-2d4f72c9d979" alt="equation11" width="140"/> Therfore, gives:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/79732bfd-6ae9-48c0-8c32-64ffe0f88551" alt="equation12" />
+</p>
+
 
