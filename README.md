@@ -76,5 +76,6 @@ The overall Forward differential kinematics is obtained by combining Equations (
 The matrix which defines the relationship between the robot's velocity in the world frame and its local frame is the Jacobian matrix.
 
 ## Dynamics
-
+In order to develop the dynamical equations of motion for the differential drive robot,
+we make the following assumptions:
 
