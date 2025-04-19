@@ -94,7 +94,11 @@ which yields:
   <img src="https://github.com/user-attachments/assets/78500c53-8005-466b-96ae-c1ecffdcb084" width="300" />
 </p>
 
-From
+From deriviation of eqation 4:
+
+
+
+![image](https://github.com/user-attachments/assets/a36d5302-9c41-4c22-9b8a-117dab971876)
 
 
 
