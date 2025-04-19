@@ -78,23 +78,23 @@ The matrix which defines the relationship between the robot's velocity in the wo
 ## Dynamics
 Applying Newton's second law for linear motion:
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d6665c8c-471f-444e-a067-0f23852ac6d3" width="300"" />
+  <img src="https://github.com/user-attachments/assets/d6665c8c-471f-444e-a067-0f23852ac6d3" width="300" />
 </p>
 <img src="https://github.com/user-attachments/assets/31f23641-6e1f-4317-a72d-2d4f72c9d979" alt="equation11" width="140"/> Therfore, gives:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/79732bfd-6ae9-48c0-8c32-64ffe0f88551" alt="equation12" />
+  <img src="https://github.com/user-attachments/assets/79732bfd-6ae9-48c0-8c32-64ffe0f88551" width="300" />
 </p>
 Applying Euler’s rotational dynamics for torque around the center of mass:
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/36c895dd-ba69-4dd7-ace1-7a1709679859" alt="equation13" />
+  <img src="https://github.com/user-attachments/assets/36c895dd-ba69-4dd7-ace1-7a1709679859" width="300" />
 </p>
 which yields:
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/78500c53-8005-466b-96ae-c1ecffdcb084" alt="equation14" />
+  <img src="https://github.com/user-attachments/assets/78500c53-8005-466b-96ae-c1ecffdcb084" width="300" />
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cc6fddda-4d92-42c6-9e63-672fadeccaaf" alt="equation14" />
+  <img src="https://github.com/user-attachments/assets/cc6fddda-4d92-42c6-9e63-672fadeccaaf" width="300"/>
 </p>
 
 
