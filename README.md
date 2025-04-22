@@ -23,7 +23,7 @@ R(θ) defines the relation between frames as follows:
 The differential drive robot has two wheels, each with a diameter r=W_R=W_L. Given a point P centered between the two drive wheels, each wheel is at a distance l = W_S/2 from P . Given r, l, θ, and the spinning speed of each wheel, a forwardkinematic model for the robot’s overall speed in the global
 reference frame can be described as
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/41e8c078-8856-4782-882e-258e90cf8f6f" alt="Robot diagram" width="15%" />
+  <img src="https://github.com/user-attachments/assets/41e8c078-8856-4782-882e-258e90cf8f6f" alt="Robot diagram" width="30%" />
 </p>
 
 
