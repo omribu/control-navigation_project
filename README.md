@@ -81,12 +81,13 @@ The following expression defines the velocity in the world frame as a function o
 The overall Forward differential kinematics is obtained by combining Equations (3) and (4), solved independently. 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9db389a6-e4e7-42ae-9b38-5fdabd0ca6f0" alt="equation8" />
+  <img src="https://github.com/user-attachments/assets/25038492-7c19-4371-83c8-5f68c6b9c20c" alt="equation8" />
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a652ee2c-21da-463c-89f4-431d7e1144c9" alt="equation9" />
 </p>
+
 The matrix which defines the relationship between the robot's velocity in the world frame and its local frame is the Jacobian matrix.
 
 ## Dynamics
