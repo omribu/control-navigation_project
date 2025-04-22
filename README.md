@@ -69,7 +69,7 @@ We now combine Equations (1) and (2) and express them in matrix form (W_l and W_
 The matrix M_S maps motor velocities to the robot's velocity, allowing us to compute the robot's motion from the wheel speeds. Since the matrix is invertible, it also enables us to determine the wheel speeds from the robot's velocity.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a97efe0a-198b-4dfc-8447-9d521aa5e138" alt="equation6" width="40%"/>
+  <img src="https://github.com/user-attachments/assets/a97efe0a-198b-4dfc-8447-9d521aa5e138" alt="equation6" width="30%"/>
 </p>
 
 The following expression defines the velocity in the world frame as a function of the robot’s velocity in its local reference frame.
