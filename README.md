@@ -62,7 +62,7 @@ The **angular velocity** is calculated by subtracting the two V_C equations:
 We now combine Equations (1) and (2) and express them in matrix form (W_l and W_r are equal).
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6a589f37-f356-40a1-b39b-7729f86842cf" alt="equation5" />
+  <img src="https://github.com/user-attachments/assets/6a589f37-f356-40a1-b39b-7729f86842cf" alt="equation5" width="20%"/>
 </p>
 
 
