@@ -11,7 +11,7 @@ In order for the robot to perform all its movements, it must control both motors
 ζ is defined to describe the robot state with respect to the global frame and ζR with respect to the local frame.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9508ef32-53ed-43b8-9592-edb05dc44433" alt="Robot diagram" />
+  <img src="https://github.com/user-attachments/assets/9508ef32-53ed-43b8-9592-edb05dc44433" alt="Robot diagram" width="30%" />
 </p>
 
 ## Differential Kinematics
