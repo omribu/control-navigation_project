@@ -15,7 +15,7 @@ In order for the robot to perform all its movements, it must control both motors
 </p>
 R(θ) defines the relation between frames as follows:
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2e24577d-72ce-47e4-9c89-5ccea20757d7" alt="Robot diagram" width="20%" />
+  <img src="https://github.com/user-attachments/assets/2e24577d-72ce-47e4-9c89-5ccea20757d7" alt="Robot diagram" width="15%" />
 </p>
 
 
