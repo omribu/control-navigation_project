@@ -13,7 +13,10 @@ In order for the robot to perform all its movements, it must control both motors
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9508ef32-53ed-43b8-9592-edb05dc44433" alt="Robot diagram" width="30%" />
 </p>
-R(θ) defines the relation between ζ˙I , and ζ˙R as follows
+R(θ) defines the relation between frames as follows:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2e24577d-72ce-47e4-9c89-5ccea20757d7" alt="Robot diagram" width="30%" />
+</p>
 
 
 ## Differential Kinematics
