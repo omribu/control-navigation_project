@@ -4,6 +4,9 @@
 ## Kinematics
 The kinematic model of a mobile robot assumes a rigid frame with non-deformable wheels moving on a flat surface. Two reference frames are used: a global (inertial) frame and a local frame attached to the robot. The robot’s position is defined by the coordinates (x,y) of a point 𝑃 on its chassis and the orientation angle 𝜃 between the global and local frames. The robot's state is represented by a 3×1 vector in either the global or local frame, and its orientation is described using a rotation matrix 𝑅(𝜃).
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/96da6a00-9469-4c3f-bc65-7a9ab904bb94" alt="equation0" />
+</p>
 In order for the robot to perform all its movements, it must control both motors and combine their speeds. Kinematics defines the relationship between the speeds of the two motors and the overall motion of the robot in 2D. A world reference frame is defined as a fixed coordinate system. The robot is restricted to move in a 2D plane, and its coordinate system is attached to the robot and moves with it (a body-fixed or local reference frame). Therefore, the pose of the robot can be described as the tran slation and rotation of the robot frame with respect to the fixed world frame.
 
 <p align="center">
