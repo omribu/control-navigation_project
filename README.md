@@ -8,6 +8,7 @@ The kinematic model of a mobile robot assumes a rigid frame with non-deformable 
   <img src="https://github.com/user-attachments/assets/96da6a00-9469-4c3f-bc65-7a9ab904bb94" alt="equation0" width="30%" />
 </p>
 In order for the robot to perform all its movements, it must control both motors and combine their speeds. Kinematics defines the relationship between the speeds of the two motors and the overall motion of the robot in 2D. A world reference frame is defined as a fixed coordinate system. The robot is restricted to move in a 2D plane, and its coordinate system is attached to the robot and moves with it (a body-fixed or local reference frame). Therefore, the pose of the robot can be described as the tran slation and rotation of the robot frame with respect to the fixed world frame.
+ζ is defined to describe the robot state with respect to the global frame and ζR with respect to the local frame.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d0a2b919-d5b9-4451-badb-ad53ede80cff" alt="Robot diagram" />
