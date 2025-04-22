@@ -66,8 +66,9 @@ The **angular velocity** is calculated by subtracting the two V_C equations:
 We now combine Equations (1) and (2) and express them in matrix form (W_l and W_r are equal).
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ef90aa2c-f2fc-481b-ac57-36359a6cf13b" alt="equation5" />
+  <img src="https://github.com/user-attachments/assets/6a589f37-f356-40a1-b39b-7729f86842cf" alt="equation5" />
 </p>
+
 
 The matrix M_S maps motor velocities to the robot's velocity, allowing us to compute the robot's motion from the wheel speeds. Since the matrix is invertible, it also enables us to determine the wheel speeds from the robot's velocity.
 
