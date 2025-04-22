@@ -11,10 +11,8 @@ In order for the robot to perform all its movements, it must control both motors
 ζ is defined to describe the robot state with respect to the global frame and ζR with respect to the local frame.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d0a2b919-d5b9-4451-badb-ad53ede80cff" alt="Robot diagram" />
+  <img src="https://github.com/user-attachments/assets/9508ef32-53ed-43b8-9592-edb05dc44433" alt="Robot diagram" />
 </p>
-
-This is the homogeneous representation of the coordinate transformation between the fixed world frame and the robot's reference frame. Tx and Ty is the pose of the robot in the fixed world frame, and theta is the orientation of the robot relative to the fixed world frame.
 
 ## Differential Kinematics
 ### Linear and Angular Velocity
