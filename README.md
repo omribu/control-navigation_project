@@ -53,12 +53,10 @@ Finally, substituting V_A and V_B into the equation, the linear velocity of the 
   <img src="https://github.com/user-attachments/assets/2e394267-dbe6-4835-ac3f-73587b185f8a" alt="equation1"/>
 </p>
 
-![image](https://github.com/user-attachments/assets/9f6451fb-3910-4fb7-b799-c7690d11776a)
-
 The **angular velocity** is calculated by subtracting the two V_C equations:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f34925b1-c342-4c70-bfa2-553fb42b8976" alt="equation3" />
+  <img src="https://github.com/user-attachments/assets/9f6451fb-3910-4fb7-b799-c7690d11776a" alt="equation3" />
 </p>
 
 <p align="center">
