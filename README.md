@@ -56,11 +56,7 @@ Finally, substituting V_A and V_B into the equation, the linear velocity of the 
 The **angular velocity** is calculated by subtracting the two V_C equations:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9f6451fb-3910-4fb7-b799-c7690d11776a" alt="equation3" />
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/ade9dddf-991e-4bac-97e0-0a999baf0dc3" alt="equation4" />
+  <img src="https://github.com/user-attachments/assets/9f6451fb-3910-4fb7-b799-c7690d11776a" alt="equation3"  width="30%"/>
 </p>
 
 We now combine Equations (1) and (2) and express them in matrix form (W_l and W_r are equal).
