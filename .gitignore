@@ -3,6 +3,5 @@ install/
 log/
 .vscode/
 src/.vscode/
-src/bumperbot_cpp_examples/
-src/bumperbot_py_examples/
+
 

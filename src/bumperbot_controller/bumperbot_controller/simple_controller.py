@@ -12,6 +12,8 @@ from nav_msgs.msg import Odometry
 import math
 from tf_transformations import quaternion_from_euler
 from tf2_ros import TransformBroadcaster
+from tf2_ros.static_transform_broadcaster import StaticTransformBroadcaster
+
 
 class SimpleController(Node):
     def __init__(self):
@@ -55,6 +57,23 @@ class SimpleController(Node):
         self.transform_stamped_ = TransformStamped()
         self.transform_stamped_.header.frame_id = "odom"
         self.transform_stamped_.child_frame_id = "base_footprint"
+
+
+        # Static transform once from base_link 
+
+        self.static_broadcaster = StaticTransformBroadcaster(self)
+        static_transform = TransformStamped()
+        static_transform.header.stamp = self.get_clock().now().to_msg()
+        static_transform.header.frame_id = "base_footprint"
+        static_transform.child_frame_id = "base_link"
+        static_transform.transform.translation.x = 0.0
+        static_transform.transform.translation.y = 0.0
+        static_transform.transform.translation.z = 0.05
+        static_transform.transform.rotation.w = 1.0
+        self.static_broadcaster.sendTransform(static_transform)
+
+
+
 
         self.get_logger().info("The conversion matrix is %s" %self.speed_conversion_)
 
