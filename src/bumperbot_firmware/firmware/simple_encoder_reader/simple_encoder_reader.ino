@@ -2,11 +2,11 @@
 #define L298N_in1 12
 #define L298N_in2 13
 #define right_encoder_phaseA 3
-#define right_encoder_phaseA 5
+#define right_encoder_phaseB 5
 
-unsigned int right_encoder_couter = 0;
-String right_encoder_sign = "p"
-// double right_wheel_mwas_vel = 0.0
+unsigned int right_encoder_counter = 0;
+String right_encoder_sign = "p";
+double right_wheel_meas_vel = 0.0;
 
 
 void setup() {
@@ -14,7 +14,12 @@ void setup() {
   pinMode(L298N_enA, OUTPUT);
   pinMode(L298N_in1, OUTPUT);
   pinMode(L298N_in2, OUTPUT);
+  pinMode(right_encoder_phaseB, INPUT);
+  pinMode(right_encoder_phaseA, INPUT);
 
+  attachInterrupt(digitalPinToInterrupt(right_encoder_phaseA), rightEncoderCallback, RISING);
+
+   
   digitalWrite(L298N_in1, HIGH);
   digitalWrite(L298N_in2, LOW);
 
@@ -22,15 +27,19 @@ void setup() {
 }
 
 void loop() {
-  
-  analogWrite(L298N_enA, cmd*100);
-  
+  right_wheel_meas_vel = 10 * right_encoder_counter * (60.0/385.0) * 0.10472;
+  String encoder_read = right_encoder_sign + String(right_wheel_meas_vel);
+  Serial.println(encoder_read);
+  analogWrite(L298N_enA, 100);
+
+  right_encoder_counter = 0;
+  delay(100);
 }
 
-Void rightEncoderCallback()
+void rightEncoderCallback()
 {
   right_encoder_counter++;
-  if(digital(right_encoder_phaseB) == High)
+  if(digitalRead(right_encoder_phaseB) == HIGH)
   {
     right_encoder_sign = "p";
   }
